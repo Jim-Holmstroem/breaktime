@@ -1,14 +1,18 @@
 #include <Adafruit_CircuitPlayground.h>
 
-void setup() {
-  CircuitPlayground.begin();
-}
+// TODO
+//
+// * Show difference between long and short interval
 
 const unsigned long SEC = 1000;
 const unsigned long MIN = 60 * SEC;
 const unsigned long N_PIXELS = 10;
 const unsigned long BRIGHTNESS = 128;
 const unsigned long ALARM_FREQUENCY = 500;
+
+void setup() {
+  CircuitPlayground.begin();
+}
 
 void countdown(unsigned long ms) {
     // init
